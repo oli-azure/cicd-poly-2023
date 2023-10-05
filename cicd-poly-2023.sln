@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoolWebApp", "MyCoolWebApp\MyCoolWebApp.csproj", "{0D56EE3C-E717-4032-BD90-2FE22F8AC3C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoolTests", "MyCoolTests\MyCoolTests.csproj", "{0438068B-83FD-418B-A7AD-9BE5EC5A799D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D56EE3C-E717-4032-BD90-2FE22F8AC3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D56EE3C-E717-4032-BD90-2FE22F8AC3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D56EE3C-E717-4032-BD90-2FE22F8AC3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D56EE3C-E717-4032-BD90-2FE22F8AC3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0438068B-83FD-418B-A7AD-9BE5EC5A799D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0438068B-83FD-418B-A7AD-9BE5EC5A799D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0438068B-83FD-418B-A7AD-9BE5EC5A799D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0438068B-83FD-418B-A7AD-9BE5EC5A799D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

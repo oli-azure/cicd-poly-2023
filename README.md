@@ -5,6 +5,8 @@ Répertoire git pour l'introduction CI/CD!
 ## Commandes .NET
 
 ```shell
-$ dotnet new webapp
-$ dotnet run
+$ dotnet new webapp --output MyCoolWebApp
+$ dotnet new xunit --output MyCoolTests
+$ dotnet new sln
+$ dotnet sln add MyCoolWebApp MyCoolTests
 ```
