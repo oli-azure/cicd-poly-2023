@@ -35,7 +35,7 @@ jobs:
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
       with:
-        name: dotnet-app
+        name: dotnet-app-artifact
         path: ${{ env.DOTNET_ROOT }}/app
 
   deploy:
@@ -49,7 +49,8 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
         with:
-          name: dotnet-app
+          name: dotnet-app-artifact
+          path: ${{ env.DOTNET_ROOT }}/app
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -57,4 +58,4 @@ jobs:
         with:
           app-name: webapp-oli
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          package: ./MyCoolWebApp
+          package: ${{ env.DOTNET_ROOT }}/app
